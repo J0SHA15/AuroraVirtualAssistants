@@ -1,1 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@now/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "env": {
+    "PYTHON_BIN": "./path/to/anaconda3/bin/python"  # Ruta al ejecutable de Python de Anaconda
+  }
+}
 
