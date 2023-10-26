@@ -8,16 +8,16 @@
   ],
   "routes": [
     {
-      "src": "/index.html",  // Ruta para index.html
+      "src": "/index.html",  
       "dest": "app.py"
     },
     {
-      "src": "/static/(.*)",  // Ruta para archivos estáticos
-      "dest": "/static/$1"    // Directorio de origen (static)
+      "src": "/static/(.*)",  
+      "dest": "/static/$1"    
     },
     {
-      "src": "/templates/(.*)",  // Ruta para archivos de plantillas
-      "dest": "/templates/$1"    // Directorio de origen (templates)
+      "src": "/templates/(.*)", 
+      "dest": "/templates/$1"    
     },
     {
       "src": "/(.*)",
